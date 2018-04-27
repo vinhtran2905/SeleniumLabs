@@ -20,12 +20,21 @@ public class JavaScriptPopUp {
 		
 		Thread.sleep(5000);
 		System.out.println(alert.getText());
+		
+		
+		//validate to content of alert
+		
+		String text = alert.getText();
+		if(text.equals("Please enter a valid user name")) {
+			System.out.println("Correct alert message");
+			
+		}
+		else {
+			System.out.println("Incorrect alert message");
+		}
+		
+		
 		alert.accept(); // click on OK button
 		//alert.dismiss();//click on Cancel button
-		
-		
-		
-		
-		
 	}
 }
