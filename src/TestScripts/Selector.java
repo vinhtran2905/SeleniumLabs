@@ -9,6 +9,9 @@ public class Selector {
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://reg.ebay.com/reg/PartialReg?ru=https%3A%2F%2Fwww.ebay.com%2F");
 
+		
+		//recommendation; y=by ID - > by CSSSelector -> by xpath -> name
+		
 //		// 1. by xpath by xpath
 //		driver.findElement(By.xpath("//*[@id='lastname']")).sendKeys("Tran");
 //		// by xpath
@@ -31,8 +34,15 @@ public class Selector {
 		//driver.findElement(By.partialLinkText("Agreement")).click();
 
 		//by css selector
+		//if id exist useing #id
+		//if class exist using .class
+		
 		driver.findElement(By.cssSelector("#firstname")).sendKeys("New name");
 		driver.findElement(By.cssSelector("#lastname")).sendKeys("Last name");
+		
+		//by class
+		
+		driver.findElement(By.className("ancasb")).click();
 		// driver.quit();
 	}
 }
