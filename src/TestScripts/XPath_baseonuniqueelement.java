@@ -18,7 +18,7 @@ public class XPath_baseonuniqueelement {
 		//.click();
 		
 		
-		//selet the parent
+		//select the parent
 		driver.findElement(By.xpath("//a[@href='/bootstrap4/default.asp'][contains(text(),'Learn Bootstrap 4')]/parent::div[1]"))
 				.click();
 		driver.close();
