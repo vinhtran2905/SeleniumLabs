@@ -1,0 +1,53 @@
+[33mcommit 617e7b048adfc6ee4f7efb5fb365feedb2566e88[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Author: Vinh Tran <vinhtran2905@gmail.com>
+Date:   Wed May 2 09:37:11 2018 -0500
+
+    count link
+
+[33mcommit 1860300997a2687dd26ccd5be747d609b7aa7f3f[m
+Author: Vinh Tran <vinhtran2905@gmail.com>
+Date:   Sun Apr 29 17:53:09 2018 -0500
+
+    draggable handling
+
+[33mcommit 4b1d498ccfa401ca5ddfbfc4202fb0cbf3726a64[m
+Author: Vinh Tran <vinhtran2905@gmail.com>
+Date:   Sun Apr 29 09:57:04 2018 -0500
+
+    Frame handling
+
+[33mcommit 0ed97c2a1af82f600874e318cb1b8ef7c0a11988[m
+Author: Vinh Tran <vinhtran2905@gmail.com>
+Date:   Fri Apr 27 13:12:49 2018 -0500
+
+    modifying alert handling
+
+[33mcommit 1705ab9b04ef38d673e4978eac106fd7c9a79210[m
+Author: Vinh Tran <vinhtran2905@gmail.com>
+Date:   Fri Apr 27 13:06:52 2018 -0500
+
+    Handling Alert by switchTo and Alert element
+
+[33mcommit 5a340c56ceaf3514112f5741aef8a5c208783026[m
+Author: Vinh Tran <vinhtran2905@gmail.com>
+Date:   Fri Apr 27 12:52:52 2018 -0500
+
+    dropdown handling by using Element Select
+
+[33mcommit f520534b409533eae2d322382e83d739e2812fa6[m
+Author: Vinh Tran <vinhtran2905@gmail.com>
+Date:   Fri Apr 27 12:33:59 2018 -0500
+
+    selector id-xpath-cssselector
+
+[33mcommit 437a87eac0409e635daba85d625916a7f4874ffd[m
+Author: Vinh Tran <vinhtran2905@gmail.com>
+Date:   Fri Apr 27 08:51:19 2018 -0500
+
+    try getTitle, getPageSoutce
+
+[33mcommit 6f9512eece7b7adc32d351c26e45babe5f044eb1[m
+Author: Vinh Tran <vinhtran2905@gmail.com>
+Date:   Fri Apr 27 06:32:10 2018 -0500
+
+    commit selenium practices
