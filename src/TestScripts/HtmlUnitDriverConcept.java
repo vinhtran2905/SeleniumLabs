@@ -21,7 +21,10 @@ public class HtmlUnitDriverConcept {
 		// cdisadvantages ; not suitable for Actions class -- user actions such as mouse movement or double click, drag and drop c.
 		//d. Ghost Driver or Headless browser : 2 ways: 
 												//htmlunitdriver -java 
+		
 												// PhantomJS -- javascript
+		
+		//why this is not part of selenium 3.0 since after 3.0 selenium doest not take care the driver, it seperates selenium core of of driver. The vendor must take care their own driver such as google takes care chromedriver, Microsoft take care iedriver ...
 		WebDriver driver = new HtmlUnitDriver();
 		
 		
